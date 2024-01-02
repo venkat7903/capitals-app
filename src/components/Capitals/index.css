@@ -1,0 +1,55 @@
+/* Write your CSS here */
+.app-container {
+  background: #93c5fd;
+  min-height: 100vh;
+  padding: 1px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  font-family: 'Roboto';
+}
+
+.sub-app-container {
+  background: #f8fafc;
+  padding: 25px 30px;
+  width: 90%;
+  border-radius: 12px;
+  max-width: 550px;
+}
+
+.capital-container {
+  display: flex;
+  align-items: center;
+}
+
+.heading {
+  color: #323f4b;
+}
+
+.capitals-list {
+  width: 30%;
+  padding: 10px;
+  margin-right: 10px;
+  border-radius: 5px;
+  outline: none;
+  border: 1px solid #cbd2d9;
+  color: #000;
+  font-weight: 600;
+}
+
+.capital {
+  color: #000;
+  font-weight: 600;
+}
+
+.query {
+  color: #000000;
+  font-weight: 500;
+}
+
+.country {
+  color: #1e293b;
+  font-size: 20px;
+  font-weight: bold;
+}
